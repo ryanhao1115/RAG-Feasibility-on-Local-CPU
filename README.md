@@ -7,9 +7,9 @@ In the current environment where large models are gaining significant attention,
 Additionally, with the skyrocketing prices of GPUs, many enterprises find that their existing data centers have substantial unused computational power. Therefore, running RAG on local CPUs is also a viable alternative. With this in mind, I plan to test RAG using different model combinations to evaluate its feasibility for practical applications.
 
 ## Test Case 1
-Model Sources
+Model Sources : From the LangChain (https://github.com/langchain-ai/langchain/blob/master/cookbook/rag-locally-on-intel-cpu.ipynb)
 
-Model Components
+Model Components: GPT4AllEmbeddings, Lllama-2 
 
 Testing Method:
 Single-document Q&A. A PDF financial report will be used as the local dataset.
